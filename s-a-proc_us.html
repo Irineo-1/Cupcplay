@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+
+
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="m-z-j.css">
+
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+    <script src="main.js" language="javascript" type="text/javascript"></script>
+
+</head>
+<body>
+
+	<div class="container section">
+		
+		<a href="#" class="sidenav-trigger" data-target="menu-side">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<ul class="sidenav" id="menu-side">
+			<li>
+				<div class="user-view">
+					<div class="background">
+						<img src="cupcakes.jpg" alt="" width="100%" height="100%">
+					</div>
+					<a href="#">
+						<img src="cupcakeg.jpg" alt="" class="circle">
+					</a>
+					<a href="#">
+						<span class="name white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+				</div>
+			</li>
+
+			<li>
+				<a href="index_us.html">
+					<i class="material-icons">start</i>
+					Home
+				</a>
+			</li>
+
+			<li>
+				<a href="Categorias_us.html">
+					<i class="material-icons">book</i>
+					Categories
+				</a>
+			</li>
+
+			<li>
+				<div class="divider"></div>
+			</li>
+
+			<li>
+				<a class='dropdown-trigger'data-target='dropdown1'>
+					<i class="material-icons">settings</i>
+					Idioma
+					<ul id='dropdown1' class='dropdown-content'>
+					    <li><a href="s-a-proc.html">Español</a></li>
+					</ul>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="imagenp">
+		<img src="Sandwich-albondigas.jpg" width="100%" height="100%">
+	</div>
+
+
+            <div class="wrap">
+                <ul class="tabs">
+                    <li><a href="#tab1"><span class="tab-text">1</span></a></li>
+                    <li><a href="#tab2"><span class="tab-text">2</span></a></li>
+                    <li><a href="#tab3"><span class="tab-text">3</span></a></li>
+                    <li><a href="#tab4"><span class="tab-text">4</span></a></li>
+                </ul>
+
+                <a href="s-a_us.html" class="btn-floating1 pulse2"><img src="video.png" class="imgcircularesproc"></a>
+				<a href="s-a-ingr_us.html" class="btn-floating2 pulse2"><img src="ingredientestransblanco.png" class="imgcircularesing"></a>
+            </div>
+	
+
+<section class="sectionn">
+
+        <section class="articulos">
+
+            <div class="secciones">
+
+                <article id="tab1">
+                    <h5>First step</h5>
+
+                    <div>
+                        <li>We start by putting the Chicken Breast in the Processor or Blender along with the egg yolk, the half onion, the bacon in pieces, salvia and salt pepper to taste. We process it until a firm paste is obtained.</li>
+                    </div>
+
+                </article>
+
+                <article id="tab2">
+                    <h5>Second step</h5>
+                    
+                    <div>
+                        <li>With the help of a Spoon, we will form balls of about 3 to 4 cm in diameter. We put them in a Plato Plato, with the Wheat Flour. We cover them well.</li>
+                    </div>
+
+                </article>
+
+
+                <article id="tab3">
+                    <h5>Third step</h5>
+
+                    <div>
+                        <li>We put to heat a frying pan. We add 2 tablespoons of oil. We will sauté the meatballs until they are cooked and brown them well (5 to 8 minutes) stirring them to brown them evenly.</li>
+                    </div>
+
+                </article>
+
+                <article id="tab4">
+                        <h5>Fourth step</h5>
+    
+                        <div>
+                        	<li>We serve them to the Bread, accompanied by Lettuce and Tomato. Another variant is to heat the Bread with a feta of Mozzarella cheese inside. And another is to cut an onion in rings, and jump it until browning with a teaspoon of sugar and seasoned to taste (Caramelized onions). </li>
+                        </div>
+                </article>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="materialize.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.slider');
+			var instances = M.Slider.init(elems, {
+			});
+
+			var elems = document.querySelectorAll('.materialboxed');
+			var instances = M.Materialbox.init(elems);
+
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems);
+
+			var elems = document.querySelectorAll('.dropdown-trigger');
+    		var instances = M.Dropdown.init(elems);
+		});
+	</script>
+</body>
+</html>
