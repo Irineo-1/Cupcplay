@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+
+
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="m-z-j.css">
+
+</head>
+<body>
+
+	<div class="container section">
+		
+		<a href="#" class="sidenav-trigger" data-target="menu-side">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<ul class="sidenav" id="menu-side">
+			<li>
+				<div class="user-view">
+					<div class="background">
+						<img src="cupcakes.jpg" alt="" width="100%" height="100%">
+					</div>
+					<a href="#">
+						<img src="cupcakeg.jpg" alt="" class="circle">
+					</a>
+					<a href="#">
+						<span class="name white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+				</div>
+			</li>
+
+			<li>
+				<a href="index_us.html">
+					<i class="material-icons">start</i>
+					Home
+				</a>
+			</li>
+
+			<li>
+				<a href="Categorias_us.html">
+					<i class="material-icons">book</i>
+					Categories
+				</a>
+			</li>
+
+			<li>
+				<div class="divider"></div>
+			</li>
+
+
+			<li>
+				<a class='dropdown-trigger'data-target='dropdown1'>
+					<i class="material-icons">settings</i>
+					Idioma
+					<ul id='dropdown1' class='dropdown-content'>
+					    <li><a href="b-q-ingr.html">Español</a></li>
+					</ul>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+
+
+
+
+
+	<div class="imagenp">
+		<img src="bombas-queso.jpg" width="100%" height="100%">
+	</div>
+
+	<div class="divicionconm">
+		<h6>Ingredients</h6>
+		<a href="b-q_us.html" class="btn-floating1 pulse2"><img src="video.png" class="imgcircularesproc"></a>
+		<a href="b-q-proc_us.html" class="btn-floating2 pulse2"><img src="Meal.png" class="imgcircularesing"></a>
+	</div>
+
+	<div class="texto">
+
+		<br>
+		<br>
+
+		<li>1 kg potatoes</li>
+		<li>1 cup common flour.</li>
+		<li>1 egg (or 2 egg yolks).</li>
+		<li>1 tbsp butter.</li>
+		<li>1 pinch of pepper.</li>
+		<li>Salt to taste.</li>
+		<li>300 g grated mozzarella cheese or cut into small cubes.</li>
+	</div>
+
+
+
+	<script type="text/javascript" src="materialize.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.slider');
+			var instances = M.Slider.init(elems, {
+			});
+
+			var elems = document.querySelectorAll('.materialboxed');
+			var instances = M.Materialbox.init(elems);
+
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems);
+
+			var elems = document.querySelectorAll('.dropdown-trigger');
+    		var instances = M.Dropdown.init(elems);
+		});
+	</script>
+</body>
+</html>
