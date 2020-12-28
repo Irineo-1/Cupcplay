@@ -1,0 +1,12 @@
+.radios
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%,-50%);
+    font-size: 25px;
+}
+.radios span
+{
+	font-size: 30px !important;
+}

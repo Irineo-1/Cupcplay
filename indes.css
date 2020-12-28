@@ -1,0 +1,74 @@
+.primeradiv
+{
+	position: relative;
+	top: 60px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	margin-top: 10px;
+	box-shadow: 0px 0px 5px 0px #747474;
+	border-radius: 6px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.imgrc
+{
+	border-radius: 20px;
+}
+h5
+{
+	margin-bottom: 16px;
+    margin-left: .5em;
+}
+.enlaces
+{
+	color: black;
+}
+.owl-dots
+{
+	display: none;
+}
+.primeradiv span
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 0.8em;
+    color: #9a9a9a;
+}
+.botonvermas
+{
+    position: absolute;
+    right: 8px;
+    width: 70px;
+    height: 29px;
+    border: 1px solid #fdb085;
+    top: 8px;
+    text-align: center;
+    color: #ff7800;
+    cursor: pointer;
+}
+.primeradiv .botonvermas p
+{
+    font-size: 12px;
+    color: #ff7800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin: 0;
+}
+.botonvermas:hover 
+{
+	background: #ff7800;
+	/*color: white;*/
+}
+.botonvermas:hover p
+{
+	color: white;
+}
+.espaciodrecetas
+{
+    text-align: center;
+}

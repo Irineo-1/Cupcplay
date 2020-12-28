@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+
+
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="m-z-j.css">
+
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+    <script src="main.js" language="javascript" type="text/javascript"></script>
+
+</head>
+<body>
+
+	<div class="container section">
+		
+		<a href="#" class="sidenav-trigger" data-target="menu-side">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<ul class="sidenav" id="menu-side">
+			<li>
+				<div class="user-view">
+					<div class="background">
+						<img src="cupcakes.jpg" alt="" width="100%" height="100%">
+					</div>
+					<a href="#">
+						<img src="cupcakeg.jpg" alt="" class="circle">
+					</a>
+					<a href="#">
+						<span class="name white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+					<a href="#">
+						<span class="email white-text"></span>
+					</a>
+				</div>
+			</li>
+
+			<li>
+				<a href="index2.html">
+					<i class="material-icons">start</i>
+					Inicio
+				</a>
+			</li>
+
+
+			<li>
+				<a href="Categorias.html">
+					<i class="material-icons">book</i>
+					Categorías
+				</a>
+			</li>
+
+			<li>
+				<div class="divider"></div>
+			</li>
+
+
+			<li>
+				<a class='dropdown-trigger'data-target='dropdown1'>
+					<i class="material-icons">settings</i>
+					Idioma
+					<ul id='dropdown1' class='dropdown-content'>
+					    <li><a href="g-proc_us.html">Ingles</a></li>
+					</ul>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="imagenp">
+		<img src="glorias.jpg" width="100%" height="100%">
+	</div>
+
+
+            <div class="wrap">
+                <ul class="tabs">
+                    <li><a href="#tab1"><span class="tab-text">1</span></a></li>
+                    <li><a href="#tab2"><span class="tab-text">2</span></a></li>
+                    <li><a href="#tab3"><span class="tab-text">3</span></a></li>
+                    <li><a href="#tab4"><span class="tab-text">4</span></a></li>
+                    <li><a href="#tab5"><span class="tab-text">5</span></a></li>
+                </ul>
+
+                <a href="g.html" class="btn-floating1 pulse2"><img src="video.png" class="imgcircularesproc"></a>
+				<a href="g-ingr.html" class="btn-floating2 pulse2"><img src="ingredientestransblanco.png" class="imgcircularesing"></a>
+            </div>
+	
+
+<section class="sectionn">
+
+        <section class="articulos">
+
+            <div class="secciones">
+
+                <article id="tab1">
+                    <h5>Primer paso</h5>
+
+                    <div>
+                        <li>COLOCA en una olla la leche, el azúcar, el jarabe de maíz y la vainilla.</li>
+                    </div>
+
+                </article>
+
+                <article id="tab2">
+                    <h5>Segundo paso</h5>
+                    
+                    <div>
+                        <li>PON la olla a fuego medio, mueve constantemente. Cuando hierva, agrega el bicarbonato de sodio.</li>
+                    </div>
+
+                </article>
+
+
+                <article id="tab3">
+                    <h5>Tercer paso</h5>
+
+                    <div>
+                        <li>MUEVE la mezcla por alrededor de 45 minutos o hasta que tome un color café oscuro y se puede ver el fondo de la olla.</li>
+                    </div>
+
+                </article>
+
+                <article id="tab4">
+                        <h5>Cuarto paso</h5>
+    
+                        <div>
+                        	<li>RETIRA del fuego, enfría por 30 minutos, agrega las nueces y deja enfriar por completo.</li>
+                        </div>
+                </article>
+
+                <article id="tab5">
+                        <h5>Quinto paso</h5>
+                        
+                        <div>	
+                            <li>FORMA las glorias con la ayuda de dos cucharas, colócalas sobre papel celofán, envuelve en forma de caramelo y ¡disfruta!</li>
+                        </div>
+                </article>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="materialize.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.slider');
+			var instances = M.Slider.init(elems, {
+			});
+
+			var elems = document.querySelectorAll('.materialboxed');
+			var instances = M.Materialbox.init(elems);
+
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems);
+
+			var elems = document.querySelectorAll('.dropdown-trigger');
+    		var instances = M.Dropdown.init(elems);
+		});
+	</script>
+</body>
+</html>
